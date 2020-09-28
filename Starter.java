@@ -1,4 +1,3 @@
-package test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,15 +31,16 @@ public class Starter {
         }
         List<Libraryvisitor> users = new ArrayList<Libraryvisitor>();
         Scanner sc = new Scanner(System.in);
-        while (true) {
+        while(true) {
             System.out.println("input your name");
             String name = sc.nextLine();
 
             System.out.println(name);
-            if (users.size() == 0){
-            Libraryvisitor newUser = visitor(name);
-            System.out.println(newUser.toString());
-            users.add(newUser);}
+            if(users.size() == 0) {
+                Libraryvisitor newUser = visitor(name);
+                System.out.println(newUser.toString());
+                users.add(newUser);
+            }
 
         //    System.out.println(users.get(1).getName());
         //    else if (users.size() != 0)

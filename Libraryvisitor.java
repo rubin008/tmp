@@ -1,5 +1,3 @@
-package test;
-
 public class Libraryvisitor {
     private String name;
     private int age;
